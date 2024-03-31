@@ -1,0 +1,58 @@
+.container{
+    padding-top: 24px;
+    padding-left: 2%;
+    padding-bottom: 24px;
+}
+
+.container .title{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 24px;
+    font-family: cursive;
+}
+
+.item{
+    width: 30%;
+    margin-right: 45px;
+    background-color: rgba(180, 180, 180, 0.255);
+    padding: 12px 24px;
+    border-radius: 8px;
+}
+
+.item .labelTitle{
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 24px;
+    font-family: cursive;
+}
+
+.labelDisplayers{
+    display: flex;
+    flex-direction: row;
+}
+
+.item .body{
+    padding-bottom: 24px;
+}
+
+.labelDisplayers .labelTitle{
+    text-align: center;
+}
+
+.item button{
+    padding: 12px 24px;
+    margin-left: 32%;
+    cursor: pointer;
+    background-color: rgb(134, 134, 134);
+    border: none;
+    color: #fff;
+    border-radius: 8px;
+    transition: 0.2s linear;
+    margin-bottom: 12px;
+}
+
+.item button:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}

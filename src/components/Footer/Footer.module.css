@@ -1,0 +1,25 @@
+.container{
+    background-color: black;
+    width: 100%;
+    color: #fff;
+    font-size: 14px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.author{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.content{
+    width: 60%;
+    text-align: center;
+    margin-left: 18%;
+}
+
+.container .logo{
+    height: 90px;
+    width: 75px;
+    padding-left: 45%;
+    padding-top: 20px;
+}

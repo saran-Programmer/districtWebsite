@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 24px;
+}
+.container .title{
+    font-size: 20px;
+    padding-left: 28px;
+    font-weight: 600;
+    font-family: cursive;
+    padding-bottom: 8px;
+}
+
+
+.imageDislayer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.imageDislayer img{
+    margin-left: 32px;
+    margin-top: 12px;
+}
+
+.imageDislayer .content{
+    margin-left: 16px;
+}

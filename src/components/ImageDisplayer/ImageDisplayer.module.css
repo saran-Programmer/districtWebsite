@@ -1,0 +1,33 @@
+.button{
+    margin-left: 90%;
+    margin-top: 18px;
+}
+
+.button button{
+    padding: 14px 16px;
+    border-radius: 50%;
+    background-color: rgb(224, 224, 224);
+    border: none;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.scrollableContainer{
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    padding-top: 20px;
+    margin-left: 20px;
+    gap: 20px;
+    scroll-behavior: smooth;
+}
+
+.scrollableContainer::-webkit-scrollbar {
+    display: none;
+  }
+
+.scrollableContainer img{
+    width: 400px;
+    height: 200px;
+    border-radius: 8px;
+}
